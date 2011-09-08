@@ -30,17 +30,17 @@
 \newlength{\bibhang}
 \setlength{\bibhang}{1em}
 \newlength{\bibsep}
- {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+{\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
 \newenvironment{bibsection}%
-        {\begin{list}{}{%
-       \setlength{\leftmargin}{\bibhang}%
-       \setlength{\itemindent}{-\leftmargin}%
-       \setlength{\itemsep}{\bibsep}%
-       \setlength{\parsep}{\z@}%
-        \setlength{\partopsep}{0pt}%
-        \setlength{\topsep}{0pt}}}
-        {\end{list}\vspace{-.6\baselineskip}}
-\makeatother
+{\begin{list}{}{%
+  \setlength{\leftmargin}{\bibhang}%
+  \setlength{\itemindent}{-\leftmargin}%
+  \setlength{\itemsep}{\bibsep}%
+  \setlength{\parsep}{\z@}%
+  \setlength{\partopsep}{0pt}%
+  \setlength{\topsep}{0pt}}}
+  {\end{list}\vspace{-.6\baselineskip}}
+  \makeatother
 
 % Layout: Puts the section titles on left side of page
 \reversemarginpar
@@ -82,7 +82,7 @@
             %includefoot, % Uncomment to put page number above margin
             marginparwidth=30.5mm,    % Length of section titles
             marginparsep=1.5mm,       % Space between titles and text
-            margin=25mm,              % 25mm margins
+            margin=20mm,              % 25mm margins
             includemp]{geometry}
 
 %% More layout: Get rid of indenting throughout entire document
@@ -258,9 +258,16 @@ Universidade Estadual de Campinas
 \section{Experiências}
 
 \begin{outerlist}
-\item[] Desenvolvedor de Software C\hfill {\bf 08/2009 -- Atual}
+\item[] Desenvolvedor de Software em C\hfill {\bf 08/2009 -- Atual}
   \begin{innerlist}
   \item Projeto \href{http://www.gebrproject.com}{GêBR}, escrito em C e GTK+.
+  \end{innerlist}
+
+\item[] Contribuição ao Ubuntu\hfill {\bf 03/2011}
+  \begin{innerlist}
+  \item Correção de dois {\em bugs} no Ubuntu utilizando a linguagem Vala.
+  \item https://bugs.launchpad.net/unity-lens-applications/+bug/734762
+  \item https://bugs.launchpad.net/unity-lens-applications/+bug/736471
   \end{innerlist}
 
 \item[] Projeto GêBR\hfill {\bf 03/2009 -- 07/2009}
@@ -283,12 +290,6 @@ Universidade Estadual de Campinas
   \begin{innerlist}
   \item Projeto para o Prof. Alberto Saa da Unicamp: applets em Flash que
     exibiam curiosidades geométricas.
-  \end{innerlist}
-
-\item[] Moderador de fórum sobre Flash/ActionScript\hfill {\bf 2004 -- 2005}
-  \begin{innerlist}
-  \item Moderador da área de Flash/ActionScript no fórum
-    \href{http://webtutoriais.com}{webtutoriais.com}
   \end{innerlist}
 
 \end{outerlist}
@@ -327,12 +328,12 @@ Universidade Estadual de Campinas
 
 \item[] Programação:
   \begin{innerlist}
-  \item C/C++, Python, Autotools, shell scripting, Java, JavaScript, SQL
+  \item C/C++, Python, Vala, Autotools, shell scripting, Java, JavaScript, SQL
   \end{innerlist}
 
 \item[] Controles de Versão:
   \begin{innerlist}
-  \item Mercurial, Git, SVN
+  \item Mercurial, Git, SVN, Bazaar
   \end{innerlist}
 
 \end{outerlist}
