@@ -1,0 +1,169 @@
+{
+  "first_name": "Ian",
+  "family_name": "L. Rodrigues",
+  "birth_date": "1988-03-01",
+  "phone": "+55 19 99899 5021",
+  "email": "ian.liu88@gmail.com",
+  "address": {
+    "zipcode": "13085-135",
+    "street": "R. Francisco de Barro Filho, 460",
+    "city": "Campinas",
+    "state": "São Paulo",
+    "state_code": "SP",
+    "country": "Brazil",
+    "country_code": "BR"
+  },
+
+  "education": [
+    {
+      "start": "2018",
+      "title": "Apache Spark 2 with Python",
+      "institute": "Udemy"
+    },
+    {
+      "start": "2018",
+      "title": "The Node.js Master Class",
+      "institute": "pirple.com"
+    },
+    {
+      "start": "2014",
+      "title": "Introduction to Machine Learning, with Andrew Ng",
+      "institute": "Coursera"
+    },
+    {
+      "start": "2006",
+      "end": "2010",
+      "title": "Bachelor of Science in Computational and Applied Mathematics",
+      "institute": "University of Campinas",
+      "institute_abbr": "Unicamp",
+      "classification": "12th in my class",
+      "grade": 0.6641,
+      "class_grade": 0.5706
+    },
+    {
+      "start": "2009",
+      "title": "Summer School at LNCC",
+      "institute": "National Laboratory of Scientific Computing"
+    }
+  ],
+
+  "projects": [
+  ],
+
+  "work_experiences": [
+
+    {
+      "start": "11/2018",
+      "end": "01/2019",
+      "company": "ViajaNet",
+      "title": "Data Engineer Consultant",
+      "description": "Worked with ViajaNet, a travel agency company, to build an Extract Load Transform (ETL) system in Python and Google Cloud. The system uses Python Pandas and PostgreSQL to transform data, and is deployed as a Docker Container."
+    },
+
+    {
+      "start": "10/2018",
+      "end": "11/2018",
+      "company": "Telecom Company",
+      "title": "Data Engineer Consultant",
+      "description": "Python and C++ consulting for a telecommunication company. Worked with data extraction and transformation."
+    },
+
+    {
+      "start": "06/2017",
+      "end": "09/2018",
+      "company": "Olivia AI",
+      "title": "Data Engineer",
+      "description": "Develop Extract Load Transform (ETL) systems with NodeJS on AWS Cloud for an personal finance advisor app. I also created a Python Jupyter Lab Cluster to analyse financial data with technologies like Python Pandas, PySpark and Scikit Learn. Developed classification models, forecast models, and recommendation systems with Scikit Learn.",
+      "url": "http://www.hpg.cepetro.unicamp.br"
+    },
+
+    {
+      "start": "06/2013",
+      "end": "06/2017",
+      "company": "Cepetro",
+      "title": "Software Engineer",
+      "description": "Develop Seismic Processing algorithms as part of a Petrobras project. Worked with Distributed Computing and High Performance Computing. The goal was to develop highly optimized algorithms in C++ to process seismic data ranging from 1 Gigabyte to several Terabytes, and fully utilize a cluster of more than 2,000 machines by distributing the tasks with Python. Published and presented papers in several Oil & Gas conferences.",
+      "url": "http://www.hpg.cepetro.unicamp.br"
+    },
+
+    {
+      "start": "01/2009",
+      "end": "01/2013",
+      "company": "GêBR Project",
+      "title": "Software Engineer",
+      "description": "Develop a Graphical User Interface for Seismic Processing as part of a Petrobras project. The program aims at the academic community for research & development purposes, and integrates with big computational clusters. The technologies used were C, GTK+, Sockets Programming, Python, and a little bit of JavaScript.",
+      "url": "www.gebproject.com"
+    },
+
+    {
+      "start": "01/2009",
+      "end": "07/2009",
+      "company": "Skedio Tec.",
+      "title": "Freelance Software Engineer",
+      "description": "Develop a Graphical User Interface with Python and GTK+ to interact with a concrete moisture probe through the RS232 Serial port.",
+      "url": "https://github.com/ianliu/probeplotter"
+    },
+
+    {
+      "start": "04/2007",
+      "end": "06/2008",
+      "company": "IgnisCom",
+      "title": "Software Engineer",
+      "description": "Develop a game for educational purposes with Macromedia Flash and Action script."
+    }
+
+  ],
+  "presentations": [
+    {"date": "2015", "description": "Presented “Efficient and Fault Tolerant Computation of Partially Idempotent Tasks” on the Intel Tech Teather, at Rio de Janeiro, Brazil" },
+    {"date": "2014", "description": "Presented “Enabling Large Data Processing With the 3D ZO CRS Stack Software” on the WIT Annual Report, at Hamburg, Germany" },
+    {"date": "2011", "description": "Gave a GêBR Workshop on the 2011 SBGf International Conference, at Rio de Janeiro, Brazil" },
+    {"date": "2009", "description": "Gave a GêBR Workshop on the 2009 SBGf International Conference, at Bahia, Brazil" }
+  ],
+  "publications_sideprojects": [
+    {
+      "title": "Bug fix on Python's core library",
+      "description": "While working on the ViajaNet project, I've found a bug on the core `ftplib` library. I then issued a bug report to Python's bug tracker and created a Pull Request on github to mitigate the issue.",
+      "year": "2018",
+      "url": "https://github.com/python/cpython/pull/10520"
+    },
+    {
+      "title": "Cognitivo AI selection process",
+      "description": "A simple web application that loads CSV data into a PostgreSQL, using `Python` and `sanic` library to build a REST API. This project was part of the selection process of Cognitivo AI, a platform that connects clients needing Data Science demands with developers and data scientists. I've been selected to do the ViajaNet consulting.",
+      "year": "2018",
+      "url": "https://gitlab.com/fooliu/teste-cognitivo.ai"
+    },
+    {
+      "title": "Pymei",
+      "description": "A Python library to read and manipulate SEG-Y Seismic files",
+      "year": "2017",
+      "url": "https://github.com/hpg-cepetro/pymei"
+    },
+    {
+      "title": "PY-PITS: A Scalable Python Runtime System for the Computation of Partially Idempotent Tasks",
+      "authors": "E. Borin and C. Benedicto and I. L. Rodrigues and F. Pisani and M. Tygel and M. Breternitz",
+      "year": 2016,
+      "doi": "10.1109/SBAC-PADW.2016.10",
+      "url": "https://ieeexplore.ieee.org/document/7803668"
+    },
+    {
+      "title": "Enabling large data processing with the 3D ZO CRS Stack software",
+      "authors": "E. Borin, A. Novo, I. Rodrigues, J. Sacramento, J.H. Faccipieri, and M. Tygel",
+      "year": 2013,
+      "url": "https://wit.cen.uni-hamburg.de/fileadmin/user_upload/wit/reports/2013/WIT2013-Borin.pdf"
+    }
+  ],
+
+  "side_projects": [
+  ],
+
+  "languages": [
+    { "name": "Portuguese", "level": "Native language" },
+    { "name": "English",    "level": "Advanced" },
+    { "name": "Spanish",    "level": "Basic" }
+  ],
+  "skills": [ "Python", "C/C++", "NodeJS"],
+  "links": [
+    "https://github.com/ianliu",
+    "https://linkedin.com/in/ianliu88"
+  ]
+}

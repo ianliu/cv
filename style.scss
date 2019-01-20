@@ -1,0 +1,88 @@
+$gutter: 180px;
+$gutter-padding: 20px;
+$section-color: #3f51b5;
+$heading-font: 'Roboto';
+$content-font: 'Roboto';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $content-font, sans-serif;
+}
+
+h1, h2 {
+  font-family: $heading-font, sans-serif;
+}
+
+section {
+  margin-top: 5px;
+
+  h1 {
+    font-variant: small-caps;
+    margin-top: 14px;
+    margin-bottom: 7px;
+    color: $section-color;
+  }
+
+  h1::before {
+    float: left;
+    width: $gutter - 2 * $gutter-padding;
+    height: 0.3em;
+    margin-left: $gutter-padding;
+    margin-right: $gutter-padding;
+    margin-top: 0.4em;
+    content: "";
+    background: $section-color;
+  }
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+  vertical-align: middle !important;
+}
+
+em {
+  color: #b71c1c;
+}
+
+code {
+  font-family: "Roboto Mono", monospace;
+}
+
+header h1 {
+  border-bottom: 4px solid #888;
+  font-size: 3em;
+
+  span {
+    font-family: $heading-font, sans-serif;
+  }
+}
+
+.first_name {
+  color: #888;
+}
+
+.family_name {
+  color: #555;
+}
+
+.entry {
+  margin-left: $gutter;
+  margin-bottom: 7px;
+
+  .left {
+    float: left;
+    text-align: right;
+    margin-left: - $gutter;
+    padding-right: $gutter-padding;
+    width: $gutter - $gutter-padding;
+  }
+
+  p {
+    line-height: 1.6em;
+  }
+}

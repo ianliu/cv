@@ -1,0 +1,63 @@
+html
+  head
+    meta(charset='utf-8')
+    title #{first_name} #{family_name}
+    link(rel='stylesheet' type='text/css' href='style.css')
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet')
+  body
+    header
+      h1 #[span.first_name #{first_name}] #[span.family_name #{family_name}]
+    section
+      h1 Contact
+      div.entry
+        p.left #[i.material-icons.md-18 phone]
+        p #{phone}
+        p.left #[i.material-icons.md-18 email]
+        p #[a(href=`mailto:${email}`)= email]
+        p.left #[i.material-icons.md-18 cake]
+        p #{birth_date}
+    section
+      h1 Education
+      each x in education
+        div.entry
+          if x.end
+            p.left #{x.start} #[i.material-icons.md-18 arrow_forward] #{x.end}
+          else
+            p.left #{x.start}
+          p #{x.title}
+          p
+            em #{x.institute}
+    section
+      h1 Experiences
+      each x in work_experiences
+        div.entry
+          if x.end
+            p.left #{x.start} #[i.material-icons.md-18 arrow_forward] #{x.end}
+          else
+            p.left #{x.start}
+          p #[strong #{x.title}] @ #[em #{x.company}]
+          p!= _.marked(x.description)
+    section
+      h1 Presentations
+      each x in presentations
+        div.entry
+          p.left #{x.date}
+          p #{x.description}
+    section
+      h1 Publications & Side Projects
+      each x in publications_sideprojects
+        div.entry
+          p.left #{x.year}
+          p: strong= x.title
+          if x.description
+            p!= _.marked(x.description)
+          if x.url
+            p #[i.material-icons.md-18 link] #[a(href=x.url)= x.url]
+    section
+      h1 Languages
+      each x in languages
+        div.entry
+          p.left #[strong #{x.name}]
+          p #{x.level}

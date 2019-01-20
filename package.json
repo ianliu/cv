@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "sass style.scss style.css; node build.js > main.html",
+    "watch": "ls main.json cv.pug style.scss | entr -s 'yarn build; reload-browser chromium'"
+  },
+  "dependencies": {
+    "marked": "^0.6.0",
+    "moment": "^2.23.0",
+    "pug": "^2.0.3",
+    "sass": "^1.16.1"
+  },
+  "license": null
+}
