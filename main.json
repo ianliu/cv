@@ -57,15 +57,15 @@
       "end": "01/2019",
       "company": "ViajaNet",
       "title": "Data Engineer Consultant",
-      "description": "Worked with ViajaNet, a travel agency company, to build an Extract Load Transform (ETL) system in Python and Google Cloud. The system uses Python Pandas and PostgreSQL to transform data, and is deployed as a Docker Container."
+      "description": "Data Engineering consulting for the travel agency company *ViajaNet* to help them build an Extract Load Transform (ETL) system using Python and Google Cloud. The system uses Python to extract flight tickets pricing information from a FTP server, and Python Pandas to transform the data and load it into a PostgreSQL database. All components of the system were deployed with Docker containers."
     },
 
     {
       "start": "10/2018",
       "end": "11/2018",
-      "company": "Telecom Company",
+      "company": "nG Solutions",
       "title": "Data Engineer Consultant",
-      "description": "Python and C++ consulting for a telecommunication company. Worked with data extraction and transformation."
+      "description": "Data Engineer Consulting for *nG Solutions* (telecommunication company) to help them build an Extract Load Transform (ETL) system using Python and C++. The system extracts data from legacy terminals by simulating an interactive environment with pseudoterminals (PTY)."
     },
 
     {

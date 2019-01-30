@@ -40,12 +40,6 @@ html
           p #[strong #{x.title}] @ #[em #{x.company}]
           p!= _.marked(x.description)
     section
-      h1 Presentations
-      each x in presentations
-        div.entry
-          p.left #{x.date}
-          p #{x.description}
-    section
       h1 Publications & Side Projects
       each x in publications_sideprojects
         div.entry
@@ -55,6 +49,12 @@ html
             p!= _.marked(x.description)
           if x.url
             p #[i.material-icons.md-18 link] #[a(href=x.url)= x.url]
+    section
+      h1 Presentations
+      each x in presentations
+        div.entry
+          p.left #{x.date}
+          p #{x.description}
     section
       h1 Languages
       each x in languages

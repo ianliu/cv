@@ -26,9 +26,9 @@ section {
 
   h1::before {
     float: left;
-    width: $gutter - 2 * $gutter-padding;
+    width: $gutter - $gutter-padding;
     height: 0.3em;
-    margin-left: $gutter-padding;
+    // margin-left: $gutter-padding;
     margin-right: $gutter-padding;
     margin-top: 0.4em;
     content: "";
