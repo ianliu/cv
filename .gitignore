@@ -1,3 +1,5 @@
 main.log
 main.aux
 main.out
+node_modules
+style.css.map
