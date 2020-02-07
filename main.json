@@ -53,6 +53,14 @@
   "work_experiences": [
 
     {
+      "start": "04/2019",
+      "end": "current",
+      "company": "CNPEM",
+      "title": "HPC Specialist",
+      "description": "Work with high performance computing and image processing algorithms for Cryogenic Electron Microscopy for the National Laboratory for Nanotechnology at CNPEM, the largest nonprofit research institute in Brazil; specify storage systems for parallel computing and high throughput."
+    },
+
+    {
       "start": "11/2018",
       "end": "01/2019",
       "company": "ViajaNet",
