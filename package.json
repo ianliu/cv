@@ -4,7 +4,7 @@
     "watch": "ls main.json cv.pug style.scss | entr -s 'yarn build; reload-browser chromium'"
   },
   "dependencies": {
-    "marked": "^0.6.0",
+    "marked": "^0.7.0",
     "moment": "^2.23.0",
     "pug": "^2.0.3",
     "sass": "^1.16.1"
