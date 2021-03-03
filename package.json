@@ -6,7 +6,7 @@
   "dependencies": {
     "marked": "^0.6.0",
     "moment": "^2.23.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "sass": "^1.16.1"
   },
   "license": "private"
